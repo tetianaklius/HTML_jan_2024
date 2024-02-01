@@ -1,0 +1,63 @@
+<!--Зверстай сторінку за прикладом (бокові відступи не важливі)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            color: white;
+            font-family: "Calibri Light", serif;
+            font-size: 10vh;
+        }
+
+        .upper_container {
+            background-color: rgba(33, 106, 187, 0.78);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            width: 100vw;
+        }
+
+        .middle_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            height: 90vh;
+            font-size: 6vh;
+        }
+
+        .lower_container {
+            background-color: rgba(33, 106, 187, 0.78);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 140vh;
+        }
+
+        .inner_box {
+            background-color: rgba(22, 69, 122, 0.78);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85%;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+<div class="upper_container">Widgets</div>
+<div class="middle_container">
+    <div class="inner_box">Big Widgets</div>
+    <div class="inner_box">Bigger Widgets</div>
+    <div class="inner_box">Huge Widgets</div>
+</div>
+<div class="lower_container">Contact</div>
+</body>
+</html>

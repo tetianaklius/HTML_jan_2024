@@ -1,0 +1,59 @@
+<!--Пояснення до завдань-->
+<!--1. Створи веб-сторінку за макетом: розмісти 5 блоків однакового розміру та будь якого кольору.
+Всередині кожного блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом
+('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+
+        body {
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: #3e0158;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .rubik_pixels {
+            font-family: 'Rubik Pixels', system-ui;
+        }
+
+        .sedgwick_ave_display {
+            font-family: 'Sedgwick Ave Display', cursive;
+        }
+
+        .dancing_script {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .fjalla_one {
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+        .indie_flower {
+            font-family: 'Indie Flower', cursive;
+        }
+    </style>
+</head>
+<body>
+<div class="rubik_pixels">Rubik Pixels</div>
+<div class="sedgwick_ave_display">Sedgwick Ave Display</div>
+<div class="dancing_script">Dancing Script</div>
+<div class="fjalla_one">Fjalla One</div>
+<div class="indie_flower">Indie Flower</div>
+</body>
+</html>
