@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: xx-large;
+}
+
+.header {
+    height: 20vh;
+    background: #D9D9D9;
+}
+
+.main {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 60vh;
+    width: 20vw;
+}
+
+.box_1 {
+    background: #5E5050;
+}
+
+.box_2 {
+    background: #817C7C;
+}
+
+.box_3 {
+    background: #696464;
+}
+
+.box_4 {
+    background: #4E4949;
+}
+
+.box_5 {
+background: #776C6C;
+}
+
+.footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

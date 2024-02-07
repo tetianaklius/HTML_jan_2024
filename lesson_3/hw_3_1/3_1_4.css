@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+.header {
+    height: 20vh;
+    background: #927D7D;
+}
+
+.main {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    height: 100%;
+    width: 20%;
+    background: #CCCCCC;
+}
+
+.medium {
+    height: 100%;
+    width: 60%;
+    background: #A74848;
+}
+
+.right {
+    height: 100%;
+    width: 20%;
+    background: #B7AEAE;
+}
+
+.footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

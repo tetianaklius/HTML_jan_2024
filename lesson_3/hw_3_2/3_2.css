@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: "Calibri Light", serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#red {
+    background-color: #801d31;
+}
+
+#blue {
+    background-color: #5f4fbc;
+}
+
+#green {
+    background-color: #027b02;
+}
