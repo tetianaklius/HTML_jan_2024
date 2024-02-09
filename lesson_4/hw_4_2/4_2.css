@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    width: 35vw;
+    height: 80vh;
+    border: #dcd9d9 solid 3px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.upper_logo {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"], input[type="password"] {
+    width: 70%;
+    height: 50px;
+    border: 2px solid #dcd9d9;
+    border-radius: 4px;
+    background-color: rgba(237, 236, 236, 0.19);
+    text-overflow: ellipsis;
+    margin-top: 2%;
+    padding-left: 7px;
+    font-size: larger;
+    color: #999595;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    color: black;
+    outline: none;
+    border-color: #b7b6b6;
+}
+
+button {
+    width: 70%;
+    border: rgba(104, 181, 250, 0.1) solid 1px;
+    border-radius: 10px;
+    background-color: rgba(104, 181, 250, 0.88);
+    height: 8%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button:focus {
+    background-color: rgb(36, 109, 174);
+}
+
+p {
+    font-weight: bolder;
+    color: rgba(107, 102, 102, 0.84);
+}
+
+.fb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb a {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(16, 92, 159);
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(16, 92, 159);
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.lower {
+    width: 35vw;
+    height: 13vh;
+    border: #dcd9d9 solid 3px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+    color: black;
+    font-size: larger;
+}
+
+.lower p {
+    color: black;
+}
+
+.lower span {
+    color: rgba(0, 149, 246);
+    font-weight: bolder;
+    font-size: smaller;
+}
