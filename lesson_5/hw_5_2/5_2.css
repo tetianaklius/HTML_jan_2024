@@ -1,0 +1,20 @@
+.task_1 > ol > li:nth-child(even) {
+    color: deeppink;
+}
+
+.task_2 > ol > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.task_3 > ol > li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+.task_4 > ol > li:last-child {
+    color: darkviolet;
+}
+
+.task_5 > ol > li:first-letter {
+    color: #d20808;
+    font-size: 30px;
+}
