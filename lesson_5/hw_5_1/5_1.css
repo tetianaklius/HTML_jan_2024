@@ -20,14 +20,6 @@ body {
     position: relative;
 }
 
-.black {
-    border-color: #554C4C;
-}
-
-.laurel {
-    border-color: #65856E;
-}
-
 .logo {
     width: 100px;
     height: 100px;
@@ -39,6 +31,14 @@ body {
     background-color: white;
     position: absolute;
     top: -8vh;
+}
+
+.black {
+    border-color: #554C4C;
+}
+
+.laurel {
+    border-color: #65856E;
 }
 
 p {
